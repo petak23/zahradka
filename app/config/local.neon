@@ -1,0 +1,16 @@
+parameters:
+	links:
+		- {
+			name: 'Adminer-localhost'
+			link: 'http://localhost/zahradka/www/adminer/' 
+		}
+
+database:
+	dsn: 'mysql:host=localhost;dbname=d264787_iot'
+	user: root
+	password: Ka5t-root
+
+webpack:
+  devServer:
+    enabled: %debugMode%
+    url: http://http://localhost/zahradka/www/dist
