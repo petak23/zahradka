@@ -1,79 +1,40 @@
 {
-  "name": "bwfoto",
-  "version": "2024-11_vue-3",
-  "description": "webpage bwfoto.sk",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
-    "@mdi/font": "^7.2.96",
-    "axios": "^1.7.7",
-    "bootstrap": "^5.3.3",
-    "bootstrap-vue-next": "^0.22.1",
-    "dayjs": "^1.11.10",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4",
-    "nette-forms": "^3.4.1",
-    "pinia": "^2.1.7",
-    "portal-vue": "^3.0.0",
-    "quill": "^2.0.2",
-    "remixicon": "^4.5.0",
-    "sortablejs": "^1.15.2",
-    "sortablejs-vue3": "^1.2.11",
-    "vee-validate": "^4.13.2",
-    "vue": "^3.2.22",
-    "vue-quilly": "^1.1.0",
-    "vue-router": "^4.3.2",
-    "vue3-touch-events": "^5.0.13",
-    "vuedraggable": "^4.1.0",
-    "yup": "^1.4.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/preset-env": "^7.22.20",
-    "@types/bootstrap": "^5.2.8",
-    "assets-webpack-plugin": "^7.1.1",
-    "autoprefixer": "^10.4.20",
-    "babel-loader": "^9.1.3",
-    "cross-env": "^7.0.3",
-    "css-loader": "^7.1.2",
-    "css-minimizer-webpack-plugin": "^5.0.1",
-    "file-loader": "^6.2.0",
-    "mini-css-extract-plugin": "^2.9.2",
-    "postcss-loader": "^8.1.1",
-    "sass": "^1.83.0",
-    "sass-loader": "^16.0.4",
-    "terser-webpack-plugin": "^5.3.9",
-    "unplugin-vue-components": "^0.27.0",
-    "vue-loader": "^17.2.2",
-    "vue-style-loader": "^4.1.3",
-    "vue-template-compiler": "^2.7.14",
-    "webpack": "^5.94.0",
-    "webpack-bundle-analyzer": "^4.9.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
-    "webpack-manifest-plugin": "^5.0.0"
-  },
-  "scripts": {
-    "start": "cross-env NODE_ENV=development webpack --mode development --progress --color",
-    "watch": "cross-env NODE_ENV=development webpack --mode development --watch --progress --color",
-    "serve": "cross-env NODE_ENV=development webpack-dev-server --mode development --hot --progress --color",
-    "serve-analyse": "cross-env WEBPACK_REPORT=1 NODE_ENV=development webpack-dev-server --mode development --hot --progress --color",
-    "build": "cross-env NODE_ENV=production webpack --mode production --progress --color"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://petak23@github.com/petak23/bwfoto.git"
-  },
-  "keywords": [
-    "bwfoto"
-  ],
-  "author": "Ing. Peter Vojtech ml.",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/petak23/bwfoto/issues"
-  },
-  "homepage": "https://github.com/petak23/bwfoto#readme"
+	"name": "zahradka",
+	"version": "1.0.0",
+	"description": "webpage of meteo - zahradka",
+	"keywords": [
+		"zahradka",
+		"meteostation",
+		"petak23"
+	],
+	"homepage": "https://github.com/petak23/zahradka#readme",
+	"bugs": {
+		"url": "https://github.com/petak23/zahradka/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/petak23/zahradka.git"
+	},
+	"license": "MIT",
+	"author": "Peter Vojtech - petak23",
+	"type": "commonjs",
+	"main": "webpack.config.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=development webpack --mode development --progress --color",
+		"watch": "cross-env NODE_ENV=development webpack --mode development --watch --progress --color",
+		"serve": "cross-env NODE_ENV=development webpack-dev-server --mode development --hot --progress --color",
+		"serve-analyse": "cross-env WEBPACK_REPORT=1 NODE_ENV=development webpack-dev-server --mode development --hot --progress --color",
+		"build": "cross-env NODE_ENV=production webpack --mode production --progress --color"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.7.2",
+		"axios": "^1.8.4",
+		"bootstrap": "^5.3.3",
+		"bootstrap-vue-next": "^0.28.3",
+		"dayjs": "^1.11.13",
+		"moment": "^2.30.1",
+		"pinia": "^3.0.1",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
+	}
 }
