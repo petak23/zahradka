@@ -1,12 +1,12 @@
-# [bwfoto.sk](http://www.bwfoto.sk)
+# [zahradka.echo-msz.eu](http://zahradka.echo-msz.eu)
 
-## Nette project of webside www.bwfoto.sk
+## Nette & Vue project of webside zahradka.echo-msz.eu
 
-This is [Nette](https://nette.org) & [Vue.js](https://vuejs.org/) project of webside [bwfoto.sk](http://www.bwfoto.sk) created in collaboration with [Tatravisual.sk](http://tatravisual.sk/).
+This is [Nette](https://nette.org) & [Vue.js](https://vuejs.org/) project of webside [zahradka.echo-msz.eu](http://zahradka.echo-msz.eu). 
 
 ## Nette projekt stránky www.bwfoto.sk
 
-Toto je [Nette](https://nette.org) a [Vue.js](https://vuejs.org/) projekt web-stránky [bwfoto.sk](http://www.bwfoto.sk) tvorený v spolupráci s [Tatravisual.sk](http://tatravisual.sk/).
+Toto je [Nette](https://nette.org) a [Vue.js](https://vuejs.org/) projekt web-stránky [zahradka.echo-msz.eu](http://zahradka.echo-msz.eu).
 
 ## Install
 
@@ -32,9 +32,9 @@ Toto je [Nette](https://nette.org) a [Vue.js](https://vuejs.org/) projekt web-s
 
 ## Komponenty tretích strán
 
--   [vue-photo-collage](https://github.com/seanghay/vue-photo-collage) - Mnou upravené pre moje potreby.
+- ...
 
 ## github personal token:
 
 -   pregeneruj token na: (https://github.com/settings/tokens)
--   použi príkaz: `git remote set-url origin https://petak23:!!!TOKEN!!!@github.com/petak23/bwfoto.git`
+-   použi príkaz: `git remote set-url origin https://petak23:!!!TOKEN!!!@github.com/petak23/zahradka.git`
